@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Test from "../components/Test";
-
+import FrontCard from "../components/FrontCard";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
       <Navbar />
-      <Test />
+      <FrontCard />
+      <Footer />
     </>
   );
 };

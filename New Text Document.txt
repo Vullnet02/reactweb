@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatura</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 60%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header img {
+        width: 320px;
+        height: 120px;
+      }
+
+      .header h1 {
+        margin: 0;
+      }
+
+      .details,
+      .order-details {
+        margin-bottom: 20px;
+      }
+
+      .order-details img {
+        width: 70px;
+      }
+
+      .total {
+        text-align: right;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .thank-you {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://ci3.googleusercontent.com/meips/ADKq_NYV9gu_k9JbuGZa05kGF0kSppf2W_iKnKBe8IRtO8QwqLNxsvArQXjjPwHjaeC6kWorMVwdbJISHFNhDjvRAA-nA6lB=s0-d-e1-ft#https://hebsclient.novende.com/Images/logo.png"
+          alt="Heb's"
+        />
+      </div>
+      <div class="details">
+        <p>Erisi</p>
+        <p>049000000</p>
+        <p>
+          <a href="mailto:vullnetjakupi3@gmail.com">vullnetjakupi3@gmail.com</a>
+        </p>
+        <p>Adresa: Emerald Hotel, Çagllavicë</p>
+        <p>Mënyra e pagesës: Para të gatshme</p>
+      </div>
+      <div class="details">
+        <p>PRISHTINE, RRUGA B</p>
+        <p>Adresa: Te Spar market</p>
+      </div>
+      <div class="order-details">
+        <p><strong>(KESH) DETAJET E POROSISË</strong></p>
+        <p>
+          <img
+            src="https://delivery.hebskosova.com/wp-content/uploads/2021/12/Hebs-Chicken-Burger-1.jpg"
+            alt="Heb's Giant Chicken"
+          />
+          Heb's Giant Chicken 2.30$
+        </p>
+        <p>
+          <img
+            src="https://delivery.hebskosova.com/wp-content/uploads/2021/12/Hebs-Beef-Giant.jpg"
+            alt="Heb's Giant Chicken"
+          />
+          Heb's Giant Chicken 2.30$
+        </p>
+      </div>
+      <div class="total">TOTALI: 4.60$</div>
+      <div class="thank-you">Falemnderit për porosinë tuaj!</div>
+    </div>
+  </body>
+</html>

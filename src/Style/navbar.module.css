@@ -1,9 +1,64 @@
-.MainWrapper {
-  background-color: red;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 2% auto;
+  width: 50%;
 }
-.paragrafOne {
-  color: aqua;
-  margin-left: 45%;
-  font-size: xx-large;
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .logo span {
+  font-size: 24px;
   font-weight: bold;
+  color: #000;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .menu a:hover {
+  color: #ff5722;
+}
+
+.navbar .language-selector {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.navbar .language-selector i {
+  color: #333;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.navbar .language-selector span {
+  color: #333;
+  font-size: 16px;
 }
