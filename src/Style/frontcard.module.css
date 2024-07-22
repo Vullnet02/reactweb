@@ -1,5 +1,5 @@
 .card {
-  width: 50%;
+  width: 57%;
   height: 500px;
   perspective: 1000px;
   margin: 4% auto;
@@ -26,7 +26,7 @@
 }
 
 .cardFront {
-  background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*3-V1OMQoNbbidOaXtzTS6w.png);
+  background-image: url(https://bs-uploads.toptal.io/blackfish-uploads/components/seo/8497786/og_image/optimized/op-Ten-Front-End-Design-Rules-For-Developers_Luke-Social-33a3a7c9b759fdaa22973906070f8065.png);
   background-position: center;
   background-size: cover;
   color: #fff;
