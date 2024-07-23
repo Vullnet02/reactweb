@@ -7,17 +7,19 @@ import CenteredScreenshot from "../components/CenteredScreenshot";
 import PricingCards from "../components/PricingCards";
 import MarketingSection from "../components/MarketingSection";
 import Featurette from "../components/Featurette";
+import SwiperSlide from "../components/SwiperSlide";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      <SwiperSlide />
+      <CenteredScreenshot />
       <FrontCard />
       <MarketingSection />
       <br /> <br />
       <Popup />
       <Featurette />
-      <CenteredScreenshot />
       <PricingCards />
       <Footer />
     </>

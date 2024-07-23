@@ -10,7 +10,7 @@ const Navbar = () => {
         />
       </div>
       <div className={Style.menu}>
-        <a href="#home">Contact</a>
+        <a href="#footi">Contact</a>
       </div>
     </div>
   );
