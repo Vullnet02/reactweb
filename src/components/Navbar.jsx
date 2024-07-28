@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className={Style.navbar}>
       <div className={Style.logo}>
         <img
-          src="https://www.freepnglogos.com/uploads/logo-chatgpt-png/black-chatgpt-logo-circle-symbol-black-png-0.png"
+          src="https://png.pngtree.com/png-vector/20220617/ourmid/pngtree-dental-logo-template-dentist-smile-png-image_5120915.png"
           alt="Logo"
         />
       </div>

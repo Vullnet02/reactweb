@@ -107,19 +107,17 @@
 #app {
   height: 100%;
 }
-html,
 body {
   position: relative;
+  background: linear-gradient(lightblue, rgb(4, 4, 107));
 }
 
-body {
-  background: rgb(198, 219, 226);
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+/*main swiper
+.mySwiper {
+  width: 50%;
+  float: right;
 }
+  */
 
 .swiper {
   width: 100%;
@@ -145,8 +143,118 @@ body {
 }
 
 .ss {
-  background-image: url(https://imgscf.slidemembers.com/docs/1/1/362/dental_clinic_simple_powerpoint_templates_361494.jpg);
-  height: 750px;
+  background-image: url(../assets//ai.teeth.jpg);
+  height: 720px;
   background-position: center;
   background-size: cover;
+  position: absolute;
+}
+
+.headinText {
+  margin: 10% 5%;
+  color: rgb(0, 128, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lorem {
+  margin: -8% 5%;
+  color: rgba(85, 154, 158, 0.771);
+  text-transform: capitalize;
+  width: 62ch;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+.buta {
+  width: 100px;
+  height: 50px;
+  background-color: rgba(0, 255, 255, 0.396);
+  color: rgb(1, 25, 27);
+  border-radius: 12px;
+  border: 1px solid lightblue;
+  font-size: 17px;
+  margin: 9% 5%;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+.aw:hover {
+  color: white;
+}
+.aw {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+@media (max-width: 600px) {
+  .swiper {
+    height: 200px;
+  }
+
+  .swiper-slide {
+    font-size: 16px;
+  }
+
+  .swiper-slide img {
+    height: 200px;
+  }
+
+  .ss {
+    height: 500px;
+  }
+
+  .headinText {
+    margin: +15% 5%;
+    font-size: 42px;
+    color: gainsboro;
+  }
+
+  .lorem {
+    margin: -5% 5%;
+    width: auto;
+    font-size: 16px;
+    width: 30ch;
+  }
+
+  .buta {
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin: 10% 5%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .swiper {
+    height: 450px;
+  }
+
+  .swiper-slide {
+    font-size: 17px;
+  }
+
+  .swiper-slide img {
+    height: 450px;
+  }
+
+  .ss {
+    height: 600px;
+  }
+
+  .headinText {
+    margin: 15% 5%;
+    font-size: 22px;
+  }
+
+  .lorem {
+    margin: -6% 5%;
+    width: 50ch;
+    font-size: 18px;
+  }
+
+  .buta {
+    width: 90px;
+    height: 45px;
+    font-size: 16px;
+    margin: 12% 5%;
+  }
 }

@@ -27,10 +27,10 @@ const CenteredScreenshot = () => {
       <div className="overflow-hidden" style={{ maxHeight: "30vh" }}>
         <Container className="px-5">
           <Image
-            src="https://static.wixstatic.com/media/54c56c_479726f623e6447a803c8775db9f6ac8~mv2.png"
+            src="https://i.pinimg.com/1200x/bc/54/3a/bc543a391294aa1d2decac760236c723.jpg"
             className="img-fluid border rounded-3 shadow-lg mb-4"
             alt="Example image"
-            width="700"
+            width="850"
             height="500"
             loading="lazy"
           />

@@ -17,6 +17,7 @@ const Featurette = () => {
               Another featurette? Of course. More placeholder content here to
               give you an idea of how this layout would work with some actual
               real-world content in place.
+              <br /> <br />
             </p>
           </Col>
           <Col md={5} className="order-md-1">
@@ -24,7 +25,7 @@ const Featurette = () => {
               className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="https://careerinpharma.com/wp-content/uploads/2022/06/dentis-1-scaled.svg"
               role="img"
               aria-label="Placeholder: 500x500"
               preserveAspectRatio="xMidYMid slice"

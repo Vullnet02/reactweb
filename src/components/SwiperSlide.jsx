@@ -9,9 +9,26 @@ export default function App() {
   return (
     <>
       <Swiper className={Style.mySwiper}>
-        <SwiperSlide className={Style.ss}>
-          <h1>Hello, World!</h1>
-        </SwiperSlide>
+        <div>
+          <SwiperSlide className={Style.ss}>
+            {" "}
+            <h1 className={Style.headinText}>AI Dental</h1>
+            <p className={Style.lorem}>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+              nobis tempora quidem odit maiores doloribus vitae laboriosam odio
+              vero, officiis dicta? At odio explicabo quibusdam tempora quas
+              quis ab optio!
+            </p>
+            <div>
+              <button className={Style.buta}>
+                {" "}
+                <a className={Style.aw} href="#footi">
+                  Click me
+                </a>
+              </button>
+            </div>
+          </SwiperSlide>
+        </div>
       </Swiper>
     </>
   );
